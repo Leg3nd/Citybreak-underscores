@@ -48,12 +48,11 @@
 								'theme_location' => 'menu-1',
 								'menu_id'        => 'primary-menu',
 								'menu_class'     => 'flex',
-								'add_li_class'  => 'mr-4 text-white',
-								'link_class'     => 'font-inter text-lg uppercase no-underline hover:underline',
+								'add_li_class'  => 'mr-4',
+								'link_class'     => 'font-inter text-white text-lg uppercase no-underline hover:underline',
 							)
 						);
 						?>
-						<p class="text-white">test</p>
 					</div>
 					
 					<!-- Hamburger menu -->
