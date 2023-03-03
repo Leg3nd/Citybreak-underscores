@@ -579,6 +579,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -626,6 +634,11 @@ video {
 .bg-citybreakteal {
   --tw-bg-opacity: 1;
   background-color: rgb(72 170 173 / var(--tw-bg-opacity));
+}
+
+.bg-citybreaksecondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 190 80 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -728,6 +741,11 @@ video {
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
+}
+
+.hover\:text-citybreakteal:hover {
+  --tw-text-opacity: 1;
+  color: rgb(72 170 173 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
