@@ -162,6 +162,7 @@ function citybreak_underscoresme_scripts() {
 	wp_enqueue_style( 'citybreak-underscoresme-output', get_template_directory_uri() . '/dist/output.css', array(), _S_VERSION );
 
 	wp_enqueue_script( 'citybreak-underscoresme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'citybreak-mobilemenu', get_template_directory_uri() . '/js/menu.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
