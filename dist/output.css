@@ -598,6 +598,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -672,6 +676,11 @@ video {
   background-color: rgb(14 34 35 / var(--tw-bg-opacity));
 }
 
+.bg-citybreakteal-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 238 239 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -684,6 +693,11 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pt-2 {

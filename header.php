@@ -64,7 +64,7 @@
 				</div>
 				<!-- Mobile menu -->
 				<div class="md:hidden">
-					<div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+					<div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-5 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
 					<?php
 						wp_nav_menu(
 							array(
@@ -72,7 +72,7 @@
 								'menu_id'        => 'primary-menu',
 								'menu_class'     => 'flex',
 								'add_li_class'  => 'mr-4',
-								'link_class'     => 'font-inter text-white hover:text-citybreakteal',
+								'link_class'     => 'font-inter text-citybreakteal uppercase no-underline hover:underline',
 							)
 						);
 						?>
